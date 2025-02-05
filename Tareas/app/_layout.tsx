@@ -22,7 +22,8 @@ export default function RootLayout() {
       SplashScreen.hideAsync();
       //router.replace("/usuario")
       //router.replace("/contador")
-      router.replace("/reloj")
+      //router.replace("/reloj")
+      router.replace("/simulacion")
       
       
       
