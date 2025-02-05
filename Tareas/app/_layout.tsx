@@ -20,8 +20,11 @@ export default function RootLayout() {
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
-      router.replace("/usuario")
+      //router.replace("/usuario")
       //router.replace("/contador")
+      router.replace("/reloj")
+      
+      
       
     }
   }, [loaded]);
